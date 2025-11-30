@@ -64,7 +64,7 @@ p {
     gap: 20px;
     background-color: var(--Bleu-50);
     padding: 15px 10px 15px 8px;
-    max-width: 100%;
+    width: 100%;
     border-radius: 10px;
     margin-bottom: 15px;
 }
@@ -123,4 +123,27 @@ p {
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 356px) {
+    main {
+        padding: 40px 20px;
+} 
+    .card-content {
+        padding: 20px;
+        
+} 
+    .plan {
+        padding: 15px 8px;
+        justify-content: center;
+}
+    
+}
+
+@media (min-width: 999px) {
+    body {
+        background-image: url(./assets/images/pattern-background-desktop.svg);
+        background-position: top;
+        object-fit: cover;
+    }
 }
